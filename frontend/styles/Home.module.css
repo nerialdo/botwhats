@@ -1,0 +1,36 @@
+/* @import '~antd/dist/antd.css'; */
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.siteLayoutHeader{
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.siteLayout .siteLayoutBackground {
+  background: #fff;
+}
+[data-theme="dark"] .siteLayout .siteLayoutBackground {
+  background: #141414;
+}
+
+.iconeHeader{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.iconeHeader button{
+  border: none;
+}
